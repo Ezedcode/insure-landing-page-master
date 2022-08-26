@@ -1,0 +1,132 @@
+body {
+    overflow-x: hidden;
+}
+
+body {
+    text-align: center;
+}
+
+@media (max-width: 770px){
+    .header {
+        padding: 2rem;
+    }
+    
+    .header .nav-bar {
+        position: absolute;
+        height: 40rem;
+        width: 110vw;
+        left: 8px;
+        transform: translate(100%, 57%);
+        background-color: hsl(256, 26%, 20%);
+        background-image: url(../images/bg-pattern-mobile-nav.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        transition: 0.5s;
+    }
+    .header .nav-bar > div {
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .header .nav-bar a{
+        padding: 10px;
+        color: #fff;
+    }
+    
+    .header > nav > div > a:last-child {
+        border: 2px solid #fff;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .header  #closebtn {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 45px;
+    }
+    
+}
+
+.intro-images {
+    display: none;
+}
+
+.container, .image-intro,
+.intro, .intro > .content, 
+.wedifferent, #how-we-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro > .content {
+    background-image: url("../images/bg-pattern-intro-left-mobile.svg");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 375px;
+}
+
+.intro > img {
+    position: absolute;
+    align-self: flex-end;
+    top: 885px;
+}
+
+.content, #intro {
+    width: 320px;
+}
+
+.wedifferent > .content > div > img {
+    padding: 30px  0;
+}
+
+.wedifferent > hr {
+    border: 1px solid #bdb4b4;
+    width: 40vw;
+    margin: 150px auto 50px;
+}
+
+#how-we-work {
+    background-image: url("../images/bg-pattern-how-we-work-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 370px;
+    margin-left:0 ;
+    margin: 11vh 0;
+}
+
+footer {
+    background-color: #fafafa;
+}
+
+footer > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 200px;
+    width: 375px;
+    background-image: url("../images/bg-pattern-footer-mobile.svg");
+    background-repeat: no-repeat;
+}
+
+
+footer > div > .socialNetwork {
+    padding: 30px;
+}
+
+footer > hr {
+    border: 1px solid rgb(189, 180, 180);
+    width: 85vw;
+    margin: auto;
+}
+
+footer > section:last-child {
+    padding-bottom: 5vh;
+}
+

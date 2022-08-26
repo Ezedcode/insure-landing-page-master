@@ -1,0 +1,156 @@
+.header > button {
+    display: none;
+} 
+
+.header > nav > div> a {
+    padding: 10px;
+    height: 1em;
+    width: 5em;
+    font-weight: bold;
+}
+
+.header > nav > div > a:hover {
+    background-color: #2d2640;
+    color:#fafafa;
+}
+
+.header > nav > div > a:last-child {
+    border: 2px solid #2d2640;
+}
+
+@media (min-width: 1115px) {
+
+    h1 {
+        font-size: 6vw;
+    }
+    
+    .intro {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        height: 50vw;
+    }
+    
+    .intro > img {
+        display: none;
+    }
+    
+    .intro > picture {
+        margin-top: 5vw;
+    }
+    
+    .intro > picture img {
+        height: 50vw;
+    }
+    
+    .intro-images {
+        position: absolute;
+    }
+    
+    .intro-images:first-child {
+        right: 0;
+    }
+    .intro-images:nth-child(2) {
+        top: 50vw;
+    }
+    
+    .content, #intro {
+        width: 581px;
+        padding-right: 20px;
+    }
+    
+    hr {
+        border: 1px solid #bdb4b4a5;
+        width: 9.5em;
+        margin-bottom: 2em;
+        margin-top: 4em;
+    }
+    
+    #intro > h1 {
+        width: 470px;
+    }
+    
+    .wedifferent {
+        margin-top: 10em;
+        padding: 100px;
+    }
+    
+    .wedifferent > h1 {
+        margin-bottom: 50px;
+    }
+    
+    .wedifferent > .content {
+       display: flex; 
+       flex-direction: row;
+       flex-wrap: wrap;
+       width: 100%;
+    }
+    
+    .wedifferent > .content > div {
+        width: 342px;
+    }
+    .wedifferent > .content > div:nth-child(2) {
+        padding: 0 30px ;
+        width: 342px;
+    }
+    
+    #how-we-work {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 32px 40px;
+        margin-top: 60px;
+        background-image: url('../images/bg-pattern-how-we-work-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    
+    #how-we-work > h1 {
+        padding: 10px;
+        width: 600px;
+    }
+    
+    #how-we-work > p{
+        width: 7.8em;
+        align-self: center;
+        margin-bottom: 40px;
+    }
+    footer {
+        padding:40px 100px;
+        background-image: url('../images/bg-pattern-footer-desktop.svg');
+        background-repeat: no-repeat;
+        background-color: #fafafa;
+    }
+    
+    footer > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+        padding: 20px 0;
+    }
+    
+    footer > hr {
+        width: 100%;
+        margin-top: 1em;
+    }
+    
+    footer > div > section > a{
+        padding-left: 20px;
+    }
+    
+    footer > div > section > a > img:hover{
+        color: #000000;
+    }
+    
+    footer > section {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 200px;
+        line-height: 2em;
+    }
+    
+}
